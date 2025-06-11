@@ -448,7 +448,7 @@ case "menuaudio": {
 📤 ${global.prefix}g — Recuperar archivo  
 🗑️ ${global.prefix}kill — Eliminar archivo
 
-🚀 *Cortana 2.0 Bot está en constante expansión.*
+🚀 *killua 2.0 Bot está en constante expansión.*
 👨‍💻 *Desarrollado por Cholo XZ*`;
 
     await sock.sendMessage2(
