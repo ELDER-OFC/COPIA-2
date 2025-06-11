@@ -3861,86 +3861,82 @@ case 'menu': {
     });
 
     const chatId = msg.key.remoteJid;
-    const captionText = `╔═════════════════╗
-║   🤖 *_KILLUA-BOT_* 🤖
-║     𝘈𝘴𝘪𝘴𝘵𝘦𝘯𝘵𝘦 𝘝𝘪𝘳𝘵𝘶𝘢𝘭     
-╚════════════════╝
+    const captionText = `*╭━━━━━━⋆★⋆━━━━━━⬣*
+*┃* 𝙺𝙸𝙻𝙻𝚄𝙰-𝙱𝙾𝚃 👑🥷🏻
+*┃* 𝘈𝘴𝘪𝘴𝘵𝘦𝘯𝘵𝘦 𝘝𝘪𝘳𝘵𝘶𝘢𝘭
+*╰━━━━━━⋆★⋆━━━━━━⬣*
 
-╭── 📋 MENÚ PRINCIPAL ──╮
+╭━━[ 𝗠𝗘𝗡𝗨́ 𝗣𝗥𝗜𝗡𝗖𝗜𝗣𝗔𝗟 💻
+📋]━⬣
 
 📌 Prefijo Actual: 『${global.prefix}』
 📌 Usa el prefijo antes de cada comando.
 
-╭── ℹ️ INFORMACIÓN ──╮
-🔹 ${global.prefix}speedtest
-🔹 ${global.prefix}ping
-🔹 ${global.prefix}creador
+╭━━[ 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢́𝗡 💻 ]━⬣
+┃➜ ${global.prefix}𝗌𝗉𝖾𝖾𝖽𝗍𝖾𝗌𝗍
+┃➜ ${global.prefix}𝗆𝗂𝗇𝗀
+┃➜ ${global.prefix}𝗆𝗋𝖾𝖺𝖽𝗈𝗋
 
-╭🗂️MENÚS DISPONIBLES ╮
-🔹 ${global.prefix}allmenu
-🔹 ${global.prefix}menugrupo
-🔹 ${global.prefix}menuaudio
-🔹 ${global.prefix}menurpg
-🔹 ${global.prefix}info
-🔹 ${global.prefix}menuowner
-🔹 ${global.prefix}menufree
+╭━━[ 𝗠𝗘𝗡𝗨́𝗦 𝗗𝗜𝗦𝗣𝗢𝗡𝗜𝗕𝗟𝗘𝗦 🗂️ ]━⬣
+┃➜ ${global.prefix}𝗆𝗅𝗅𝗆𝖾𝗇𝗎
+┃➜ ${global.prefix}𝗆𝖾𝗇𝗎𝗀𝗋𝗎𝗉𝗈
+┃➜ ${global.prefix}𝗆𝖾𝗇𝗎𝖺𝗎𝖽𝗂𝗈
+┃➜ ${global.prefix}𝗆𝖾𝗇𝗎𝗋𝗉𝗀
+┃➜ ${global.prefix}𝗂𝗇𝖿𝗈
+┃➜ ${global.prefix}𝗆𝖾𝗇𝗎𝗈𝗐𝗇𝖾𝗋
+┃➜ ${global.prefix}𝗆𝖾𝗇𝗎𝖿𝗋𝖾𝖾
 
-╭ 🛍️SISTEMA DE VENTAS ╮
-🔹 ${global.prefix}setstock / stock
-🔹 ${global.prefix}setnetflix / netflix
-🔹 ${global.prefix}setpago / pago
-🔹 ${global.prefix}setcombos / combos
-🔹 ${global.prefix}setreglas / reglas
-🔹 ${global.prefix}sorteo
+╭━━[ 𝗦𝗜𝗦𝗧𝗘𝗠𝗔 𝗗𝗘 𝗩𝗘𝗡𝗧𝗔𝗦🛍️ ]━⬣
+┃➜ ${global.prefix}𝗌𝖾𝗍𝗌𝗍𝗈𝗄 / 𝗌𝗍𝗈𝖼𝗄
+┃➜ ${global.prefix}𝗌𝖾𝗍𝗇𝖾𝗍𝖿𝗅𝗂𝗑 / 𝗇𝖾𝗍𝖿𝗅𝗂𝗑
+┃➜ ${global.prefix}𝗌𝖾𝗍𝗉𝖺𝗀𝗈 / 𝗉𝖺𝗀𝗈
+┃➜ ${global.prefix}𝗌𝖾𝗍𝖼𝗈𝗆𝖻𝗈𝗌 / 𝖼𝗈𝗆𝖻𝗈𝗌
+┃➜ ${global.prefix}𝗌𝖾𝗍𝗋𝖾𝗀𝗅𝖺𝗌 / 𝗋𝖾𝗀𝗅𝖺𝗌
+┃➜ ${global.prefix}𝗌𝗈𝗋𝗍𝖾𝗅
 
-╭── 🤖 IA & CHATBOTS ──╮
-🔹 ${global.prefix}gemini / chatgpt / dalle
-🔹 ${global.prefix}visión / visión2 / simi
-🔹 ${global.prefix}chat on|off / lumi on|off / luminai
+╭━━[ 𝗜𝗔 & 𝗖𝗛𝗔𝗧𝗕𝗢𝗧𝗦 👨‍💻 ]━⬣
+┃➜ ${global.prefix}𝗀𝖾𝗆𝗂𝗇𝗂 / 𝖼𝗁𝖺𝗍𝗀𝗉𝗍 / 𝖽𝖺𝗅𝗅𝖾
+┃➜ ${global.prefix}𝗏𝗂𝗌𝗂𝗈𝗇 / 𝗏𝗂𝗌𝗂𝗈́𝗇𝟤 / 𝗌𝗂𝗆𝗂
+┃➜  ${global.prefix}𝖼𝗁𝖺𝗍 𝗈𝗇|𝗈𝖿𝖿 / 𝗅𝗎𝗆𝗂 𝗈𝗇|𝗈𝖿𝖿 / 𝗅𝗎𝗆𝗂𝗇𝖺𝗂
 
-╭── 📥 DESCARGAS ──╮
-🔹 ${global.prefix}play / playdoc / play1 / play2
-🔹 ${global.prefix}ytmp3 / ytmp3doc / ytmp4 / ytmp4doc
-🔹 ${global.prefix}spotify / mediafire / apk
-🔹 ${global.prefix}tiktok / fb / ig
+╭━━[ 𝗗𝗘𝗦𝗖𝗔𝗥𝗚𝗔𝗦 📥 ]━⬣
+┃➜ ${global.prefix}𝗉𝗅𝖺𝗒 / 𝗉𝗅𝖺𝗒𝖽𝗈𝖼 / 𝗉𝗅𝖺𝗒𝟣 / 𝗉𝗅𝖺𝗒𝟤
+┃➜ ${global.prefix}𝗒𝗍𝗆𝗉𝟥 / 𝗒𝗍𝗆𝗉𝟥𝖽𝗈𝖼 / 𝗒𝗍𝗆𝗉𝟦 / 𝗒𝗍𝗆𝗉𝟦𝖽𝗈𝖼
+┃➜ ${global.prefix}𝗌𝗉𝗈𝗍𝗂𝖿𝗒 / 𝗆𝖾𝖽𝗂𝖺𝖿𝗂𝗋𝖾 / 𝖺𝗉𝗄
+┃➜ ${global.prefix}𝗍𝗂𝗄𝗍𝗈𝗄 / 𝖿𝖻 / 𝗂𝗀
 
-╭── 🔍 BUSCADORES ──╮
-🔹 ${global.prefix}pixai / Yts / Tiktoksearch
-🔹 ${global.prefix}tiktokstalk
+╭━━[ 𝗕𝗨𝗦𝗖𝗔𝗗𝗢𝗥𝗘𝗦 🔍 ]━⬣
+┃➜ ${global.prefix}𝗉𝗂𝗑𝖺𝗂/ 𝗒𝗍𝗌 / 𝖳𝗂𝗄𝗍𝗈𝗄𝗌𝖾𝖺𝗋𝖼𝗁
+┃➜ ${global.prefix}𝗍𝗂𝗄𝗍𝗈𝗄𝗌𝗍𝖺𝗅𝗄
 
-╭── 🧰 CONVERTIDORES ──╮
-🔹 ${global.prefix}tomp3 / tovideo / toimg / tts
-🔹 ${global.prefix}gifvideo / ff / ff2
+╭━━[ 𝗖𝗢𝗠𝗕𝗘𝗥𝗧𝗜𝗗𝗢𝗥𝗘𝗦 🧰 ]━⬣
+┃➜ ${global.prefix}𝗍𝗈𝗆𝗉𝟥 / 𝗍𝗈𝗏𝗂𝖽𝖾𝗈 / 𝗍𝗈𝗂𝗆𝗀 / 𝗍𝗍𝗌
+┃➜ ${global.prefix}𝗀𝗂𝖿𝗏𝗂𝖽𝖾𝗈 / 𝖿𝖿 / 𝖿𝖿𝟤
 
-╭── 🧩 STICKERS ──╮
-🔹 ${global.prefix}s / newpack / addsticker
-🔹 ${global.prefix}listpacks / sendpack / texto
-🔹 ${global.prefix}qc / qc2
+╭━━[ 𝗦𝗧𝗜𝗖𝗞𝗘𝗥𝗦 🧩 ]━⬣
+┃➜ ${global.prefix}𝗌 / 𝗇𝖾𝗐𝗉𝖺𝖼𝗄 / 𝖺𝖽𝖽𝗌𝗍𝗂𝖼𝗄𝖾𝗋
+┃➜ ${global.prefix}𝗅𝗂𝗌𝗍𝖺𝗉𝖺𝖼𝗄𝗌 / 𝗌𝖾𝗇𝖽𝗉𝖺𝖼𝗄 / 𝗍𝖾𝗑𝗍𝗈
+┃➜ ${global.prefix}𝗊𝖼 / 𝗊𝖼𝟤
 
-╭── 🛠️ HERRAMIENTAS ──╮
-🔹 ${global.prefix}ver / tourl / whatmusic
-🔹 ${global.prefix}perfil / carga / get / xxx
-🔹 ${global.prefix}addco / delco
+╭━━[ 𝗛𝗘𝗥𝗥𝗔𝗠𝗜𝗘𝗡𝗧𝗔𝗦 🛠️ ]━⬣
+┃➜ ${global.prefix}𝗏𝖾𝗋 / 𝗍𝗈𝗎𝗋𝗅 / 𝗐𝗁𝖺𝗍𝗆𝗎𝗌𝗂𝖼
+┃➜ ${global.prefix}𝗉𝖾𝗋𝖿𝗂𝗅 / 𝖼𝖺𝗋𝗀𝖺 / 𝗀𝖾𝗍 / 𝗑𝗑𝗑
+┃➜ ${global.prefix}𝖺𝖽𝖽𝖼𝗈 / 𝖽𝖾𝗅𝖼𝗈
 
-╭── 🎮 MINI JUEGOS ──╮
-🔹 ${global.prefix}verdad / reto / ship / parejas
-🔹 ${global.prefix}personalidad / menurpg
+╭━━[ 𝗠𝗜𝗡𝗜 𝗝𝗨𝗘𝗚𝗢𝗦 🎮 ]━⬣
+┃➜ ${global.prefix}𝗏𝖾𝗋𝖽𝖺𝖽 / 𝗋𝖾𝗍𝗈 / 𝗌𝗁𝗂𝗉 / 𝗉𝖺𝗋𝖾𝗃𝖺𝗌
+┃➜ ${global.prefix}𝗉𝖾𝗋𝗌𝗈𝗇𝖺𝗅𝗂𝖽𝖺𝖽 / 𝗆𝖾𝗇𝗎𝗋𝗉𝗀
 
-╭── 🔞 CONTENIDO +18 ──╮
-🔹 ${global.prefix}videoxxx / pornololi / nsfwneko
-🔹 ${global.prefix}waifu / neko / nsfwwaifu
+╭━━[ 𝗖𝗢𝗡𝗧𝗘𝗡𝗜𝗗𝗢 🔞 ]━⬣
+┃➜ ${global.prefix}𝗏𝗂𝖽𝖾𝗈𝗑𝗑𝗑 / 𝗉𝗈𝗋𝗇𝗈𝗅𝗈𝗅𝗂 / 𝗇𝗌𝖿𝗐𝗇𝖾𝗄𝗈
+┃➜ ${global.prefix}𝗐𝖺𝗂𝖿𝗎 / 𝗇𝖾𝗄𝗈 / 𝗇𝗌𝖿𝗐𝗐𝖺𝗂𝖿𝗎
 
-╭────────────────╮
-✨ 𝘾𝙤𝙧𝙩𝙖𝙣𝙖 2.0 está en constante mejora.  
-¡Nuevas funciones serán añadidas pronto!  
-╰────────────────╯
-
-👨‍💻 Desarrollado por *Russell XZ*`;
+👨‍💻 Desarrollado por *𝚎𝚕𝚍𝚎𝚛 𝚡𝚢𝚣*`;
 
     await sock.sendMessage2(
       chatId,
       {
-        image: { url: "https://cdn.russellxz.click/87159ae9.mp4" },
+        image: { url: "https://cdn.russellxz.click/c0c419e3.jpeg" },
         caption: captionText
       },
       msg
@@ -3964,7 +3960,7 @@ case 'menugrupo': {
     });
 
     const chatId = msg.key.remoteJid;
-    const captionText = `╭─❍ 𝐂𝐎𝐑𝐓𝐀𝐍𝐀 𝟐.𝟎 𝐁𝐎𝐓 ❍─╮
+    const captionText = `╭─❍ 𝐊𝐈𝐋𝐋𝐔𝐀 𝟐.𝟎 𝐁𝐎𝐓 ❍─╮
 │ 🎭 𝙈𝙀𝙉𝙐́ 𝘿𝙀 𝙂𝙍𝙐𝙋𝙊 🎭
 ╰───────────────╯
 
@@ -4016,9 +4012,9 @@ case 'menugrupo': {
 
 📌 𝐌Á𝐒 𝐂𝐎𝐌𝐀𝐍𝐃𝐎𝐒 𝐏𝐑Ó𝐗𝐈𝐌𝐀𝐌𝐄𝐍𝐓𝐄...
 
-╭─❍ 𝐂𝐎𝐑𝐓𝐀𝐍𝐀 𝟐.𝟎 ❍─╮  
+╭─❍ 𝐊𝐈𝐋𝐋𝐔𝐀-𝐁𝐎𝐓 𝟐.𝟎 ❍─╮  
 │ 𝙐𝙣 𝙗𝙤𝙩 𝙖𝙙𝙖𝙥𝙩𝙖𝙙𝙤 𝙥𝙖𝙧𝙖 𝙩𝙪 𝙜𝙧𝙪𝙥𝙤.
-╰──────────────────╯`;
+╰───────────────────╯`;
 
     await sock.sendMessage2(
       chatId,
