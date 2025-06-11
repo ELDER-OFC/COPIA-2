@@ -423,7 +423,7 @@ if (update.action === "add" && welcomeActivo) {
       // Enviar mensaje personalizado
       await sock.sendMessage(update.id, {
         image: { url: profilePicUrl },
-        caption: `👋 ${mention}\n\n${customMessage}`,
+        caption: `👋🏻 𝑩𝒊𝒆𝒏𝒗𝒆𝒏𝒊𝒅𝒐/𝒂 ${mention}\n\n${customMessage}`,
         mentions: [participant]
       });
     } else {
@@ -434,7 +434,7 @@ if (update.action === "add" && welcomeActivo) {
       if (option < 0.33) {
         await sock.sendMessage(update.id, {
           image: { url: profilePicUrl },
-          caption: `👋 ${mention}\n\n${mensajeTexto}`,
+          caption: `👋🏻 𝑩𝒊𝒆𝒏𝒃𝒆𝒏𝒊𝒅𝒐/𝒂 ${mention}\n\n${mensajeTexto}`,
           mentions: [participant]
         });
       } else if (option < 0.66) {
