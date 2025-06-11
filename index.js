@@ -375,26 +375,26 @@ if (fs.existsSync(welcomePath)) {
 }
     // Textos integrados para bienvenida y despedida
     const welcomeTexts = [
-      "¡Bienvenido(a)! 🪼 CORTANA 2.0 BOT 🪼 te recibe con los brazos abiertos 🤗✨. ¡Disfruta y comparte!",
-      "¡Hola! 🪼 CORTANA 2.0 BOT 🪼 te abraza con alegría 🎉🤖. ¡Prepárate para grandes aventuras!",
-      "¡Saludos! 🪼 CORTANA 2.0 BOT 🪼 Bot te da la bienvenida para que descubras ideas brillantes 🚀🌟.",
+      "¡Bienvenido(a)! 🪼 KILLUA 2.0 BOT 🪼 te recibe con los brazos abiertos 🤗✨. ¡Disfruta y comparte!",
+      "¡Hola! 🪼 KILLUA 2.0 BOT 🪼 te abraza con alegría 🎉🤖. ¡Prepárate para grandes aventuras!",
+      "¡Saludos! 🪼 KILLUA 2.0 BOT 🪼 Bot te da la bienvenida para que descubras ideas brillantes 🚀🌟.",
       "¡Bienvenido(a) al grupo! 🪼 CORTANA 2.0 BOT 🪼te invita a explorar un mundo de posibilidades 🤩💡.",
-      "¡Qué alegría verte! 🪼 CORTANA 2.0 BOT 🪼 te recibe y te hace sentir en casa 🏠💖.",
+      "¡Qué alegría verte! 🪼 KILLUA 2.0 BOT 🪼 te recibe y te hace sentir en casa 🏠💖.",
       "¡Hola! Gracias por unirte; Azura Ultra 2.0 Bot te saluda con entusiasmo 🎊😊.",
-      "¡Bienvenido(a)! Cada nuevo miembro es una chispa de inspiración en 🪼 CORTANA 2.0 BOT 🪼 🔥✨.",
-      "¡Saludos cordiales! 🪼 CORTANA 2.0 BOT 🪼 te envía un abrazo virtual 🤗💙.",
-      "¡Bienvenido(a)! Únete a la experiencia 🪼 CORTANA 2.0 BOT 🪼y comparte grandes ideas 🎉🌈.",
-      "¡Hola! 🪼 CORTANA 2.0 BOT 🪼te da la bienvenida para vivir experiencias inolvidables 🚀✨!"
+      "¡Bienvenido(a)! Cada nuevo miembro es una chispa de inspiración en 🪼 KILLUA 2.0 BOT 🪼 🔥✨.",
+      "¡Saludos cordiales! 🪼 KILLUA 2.0 BOT 🪼 te envía un abrazo virtual 🤗💙.",
+      "¡Bienvenido(a)! Únete a la experiencia 🪼 KILLUA 2.0 BOT 🪼y comparte grandes ideas 🎉🌈.",
+      "¡Hola! 🪼 KILLUA 2.0 BOT 🪼te da la bienvenida para vivir experiencias inolvidables 🚀✨!"
     ];
     const farewellTexts = [
-      "¡Adiós! 🪼 CORTANA 2.0 BOT 🪼 Bot te despide con gratitud y te desea éxitos en tus nuevos caminos 👋💫.",
-      "Hasta pronto, desde 🪼 CORTANA 2.0 BOT 🪼 te deseamos lo mejor y esperamos verte de nuevo 🌟🙏.",
-      "¡Chao! 🪼 CORTANA 2.0 BOT 🪼 se despide, pero siempre tendrás un lugar si decides regresar 🤗💔.",
+      "¡Adiós! 🪼 KILLUA 2.0 BOT 🪼 Bot te despide con gratitud y te desea éxitos en tus nuevos caminos 👋💫.",
+      "Hasta pronto, desde 🪼 KILLUA 2.0 BOT 🪼 te deseamos lo mejor y esperamos verte de nuevo 🌟🙏.",
+      "¡Chao! 🪼 KILLUA 2.0 BOT 🪼 se despide, pero siempre tendrás un lugar si decides regresar 🤗💔.",
       "Nos despedimos con cariño; gracias por compartir momentos en 🪼 CORTANA 2.0 BOT 🪼 🏠❤️.",
-      "¡Adiós, amigo(a)! 🪼 CORTANA 2.0 BOT 🪼te manda un abrazo y te desea mucha suerte 🤝🌟.",
+      "¡Adiós, amigo(a)! 🪼 KILLUA 2.0 BOT 🪼te manda un abrazo y te desea mucha suerte 🤝🌟.",
       "Hasta luego, y gracias por haber sido parte de nuestra comunidad 🚀💙.",
       "Chao, que tus futuros proyectos sean tan brillantes como tú 🌟✨. 🪼 CORTANA 2.0 BOT 🪼 te recuerda siempre.",
-      "¡Nos vemos! 🪼 CORTANA 2.0 BOT 🪼 te dice adiós con un corazón lleno de gratitud 🤗❤️.",
+      "¡Nos vemos! 🪼 KILLUA BOT 🪼 te dice adiós con un corazón lleno de gratitud 🤗❤️.",
       "¡Adiós! Que tu camino esté lleno de éxitos, te lo desea 🪼 CORTANA 2.0 BOT 🪼 🚀🌟.",
       "Hasta pronto, y gracias por haber compartido momentos inolvidables con 🪼 CORTANA 2.0 BOT 🪼 👋💖."
     ];
@@ -412,7 +412,7 @@ let profilePicUrl;
 try {
   profilePicUrl = await sock.profilePictureUrl(participant, "image");
 } catch (err) {
-  profilePicUrl = "https://cdn.russellxz.click/2486b9cc.jpeg"; // URL de tu imagen predeterminada
+  profilePicUrl = "https://cdn.russellxz.click/d9d547b6.jpeg"; // URL de tu imagen predeterminada
                                                }
 
     if (customMessage) {
