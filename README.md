@@ -1,7 +1,7 @@
 <!-- Borde superior animado -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&section=header&text=Bienvenido%20a%20mi%20perfil&fontSize=30&fontColor=FFFFFF&animation=fadeIn" width="100%"/>
 
-<h1 align="center">KILLUA-BOT 𝟸.𝟶</h1>
+<h1 align="center">KILLUA-BOT 2.0</h1>
 
 <p align="center">
   <img src="https://cdn.russellxz.click/179c9b49.jpeg" width="600" alt="Elder 2.0 Bot"/>
