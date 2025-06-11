@@ -3862,7 +3862,7 @@ case 'menu': {
 
     const chatId = msg.key.remoteJid;
     const captionText = `╔═════════════════╗
-║   🤖 𝐂𝐎𝐑𝐓𝐀𝐍𝐀 𝟐.𝟎 𝐁𝐎𝐓 🤖
+║   🤖 *_KILLUA-BOT_* 🤖
 ║     𝘈𝘴𝘪𝘴𝘵𝘦𝘯𝘵𝘦 𝘝𝘪𝘳𝘵𝘶𝘢𝘭     
 ╚════════════════╝
 
@@ -3940,7 +3940,7 @@ case 'menu': {
     await sock.sendMessage2(
       chatId,
       {
-        image: { url: "https://cdn.russellxz.click/a4d709b4.jpeg" },
+        image: { url: "https://cdn.russellxz.click/3f190542.mp4" },
         caption: captionText
       },
       msg
