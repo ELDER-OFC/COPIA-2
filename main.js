@@ -3843,7 +3843,7 @@ case 'menurpg': {
     await sock.sendMessage2(
       chatId,
       {
-        image: { url: "https://cdn.russellxz.click/bc4c5374.jpeg" },
+        image: { url: "https://cdn.russellxz.click/fa89744b.jpeg" },
         caption: menuText
       },
       msg
@@ -12161,7 +12161,7 @@ case 'rpg': {
 await sock.sendMessage(msg.key.remoteJid, { edit: registroMensaje.key, text: "✅ *¡Registro completado!* Generando tu tarjeta de jugador..." }); 
 await new Promise(resolve => setTimeout(resolve, 2000)); 
 await sock.sendMessage(msg.key.remoteJid, {  
-    image: { url: "https://cdn.russellxz.click/6a89b1ba.jpeg" },  
+    image: { url: "https://cdn.russellxz.click/523e0e55.jpeg" },  
     caption: mensajeFinal  
 }, { quoted: msg }); 
 
