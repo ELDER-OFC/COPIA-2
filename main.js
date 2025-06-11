@@ -3695,7 +3695,7 @@ case 'allmenu': {
     await sock.sendMessage2(
       chatId,
       {
-        image: { url: "https://cdn.russellxz.click/eec4cf99.jpeg" },
+        image: { url: "https://cdn.russellxz.click/1e4c9ec7.jpeg" },
         caption: commandList
       },
       msg
@@ -3843,7 +3843,7 @@ case 'menurpg': {
     await sock.sendMessage2(
       chatId,
       {
-        image: { url: "https://cdn.russellxz.click/a4f19ed5.jpeg" },
+        image: { url: "https://cdn.russellxz.click/bc4c5374.jpeg" },
         caption: menuText
       },
       msg
