@@ -407,17 +407,13 @@ if (update.action === "add" && welcomeActivo) {
     const mention = `@${participant.split("@")[0]}`;
     const customMessage = customWelcomes[update.id];
 
-    // Obtener foto de perfil (o grupo si falla)
-    let profilePicUrl;
-    try {
-      profilePicUrl = await sock.profilePictureUrl(participant, "image");
-    } catch (err) {
-      try {
-        profilePicUrl = await sock.profilePictureUrl(update.id, "image");
-      } catch {
-        profilePicUrl = "https://cdn.russellxz.click/2486b9cc.jpeg";
-      }
-    }
+    // Obtener foto de perfil (o predeterminada si falla)
+let profilePicUrl;
+try {
+  profilePicUrl = await sock.profilePictureUrl(participant, "image");
+} catch (err) {
+  profilePicUrl = "https://cdn.russellxz.click/2486b9cc.jpeg"; // URL de tu imagen predeterminada
+                                               }
 
     if (customMessage) {
       // Enviar mensaje personalizado
