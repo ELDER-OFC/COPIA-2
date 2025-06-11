@@ -424,7 +424,7 @@ case "menuaudio": {
     const guarData = JSON.parse(fs.readFileSync("./guar.json", "utf-8"));
     let claves = Object.keys(guarData);
 
-    let listaMensaje = `🎧 𓆩 𝐌𝐄𝐍𝐔́ 𝐌𝐔𝐋𝐓𝐈𝐌𝐄𝐃𝐈𝐀 — 𝐂𝐎𝐑𝐓𝐀𝐍𝐀 𝟐.𝟎 𓆪
+    let listaMensaje = `🎧 𓆩 𝐌𝐄𝐍𝐔́ 𝐌𝐔𝐋𝐓𝐈𝐌𝐄𝐃𝐈𝐀 — 𝐊𝐈𝐋𝐋𝐔𝐀 𝟐.𝟎 𓆪
 
 🔑 *Palabras clave almacenadas:*  
 ✦ Usa el comando: *${global.prefix}g palabra_clave*  
@@ -449,12 +449,12 @@ case "menuaudio": {
 🗑️ ${global.prefix}kill — Eliminar archivo
 
 🚀 *Cortana 2.0 Bot está en constante expansión.*
-👨‍💻 *Desarrollado por Russell XZ*`;
+👨‍💻 *Desarrollado por Cholo XZ*`;
 
     await sock.sendMessage2(
       msg.key.remoteJid,
       {
-        image: { url: "https://cdn.russellxz.click/49d2cb0a.jpeg" },
+        image: { url: "https://cdn.russellxz.click/eec4cf99.jpeg" },
         caption: listaMensaje
       },
       msg
@@ -1400,7 +1400,7 @@ case 'ff2': {
 
     break;
 }
-case 'tag': {
+case 'n': {
   try {
     const chatId = msg.key.remoteJid;
     const senderJid = msg.key.participant || msg.key.remoteJid;
@@ -3674,7 +3674,7 @@ case 'allmenu': {
     let totalComandos = commands.length;
 
     // Menú visual estilizado
-    let commandList = `📚 𓆩 𝐌𝐄𝐍𝐔́ 𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐎 - 𝐂𝐎𝐑𝐓𝐀𝐍𝐀 𝟐.𝟎 𝐁𝐎𝐓 𓆪
+    let commandList = `📚 𓆩 𝐌𝐄𝐍𝐔́ 𝐂𝐎𝐌𝐏𝐋𝐄𝐓𝐎 - 𝐊𝐈𝐋𝐋𝐔𝐀 𝟐.𝟎 𝐁𝐎𝐓 𓆪
 
 🔹 *Total de comandos:* ${totalComandos}
 🔹 *Prefijo actual:* 『${global.prefix}』
@@ -3689,13 +3689,13 @@ case 'allmenu': {
     commandList += `
 
 ━━━━━━━━━━━━━━━━━━━
-👨‍💻 *Desarrollado por:* Russell XZ
-🤖 *Cortana 2.0 — Asistente Avanzado*`;
+👨‍💻 *Desarrollado por:* Cholo XZ
+🤖 *Killua 2.0 — Asistente Avanzado*`;
 
     await sock.sendMessage2(
       chatId,
       {
-        image: { url: "https://cdn.russellxz.click/3d1075fc.jpeg" },
+        image: { url: "https://cdn.russellxz.click/eec4cf99.jpeg" },
         caption: commandList
       },
       msg
@@ -3718,50 +3718,56 @@ case 'menuowner': {
     });
 
     const chatId = msg.key.remoteJid;
-    const captionText = `👑 CORTANA 2.0 — PANEL DEL CREADOR
+    const captionText = `👑 KILLUA 2.0 — PANEL DEL CREADOR
 
-🧠 Comandos exclusivos del propietario:
+🧠 𝗖𝗼𝗺𝗮𝗻𝗱𝗼𝘀 𝗲𝘅𝗰𝗹𝘂𝘀𝗶𝘃𝗼𝘀 𝗽𝗮𝗿𝗮 𝗲𝗹 𝗽𝗿𝗼𝗽𝗶𝗲𝘁𝗮𝗿𝗶𝗼:
 
-• ${global.prefix}bc
-• ${global.prefix}rest
-• ${global.prefix}carga
-• ${global.prefix}cargabots
-• ${global.prefix}delsesion
-• ${global.prefix}delsubbots
-• ${global.prefix}deltmp
-• ${global.prefix}modoprivado on/off
+┃➜ ${global.prefix}bc
+┃➜ ${global.prefix}rest
+┃➜ ${global.prefix}carga
+┃➜ ${global.prefix}cargabots
+┃➜ ${global.prefix}delsesion
+┃➜ ${global.prefix}delsubbots
+┃➜ ${global.prefix}deltmp
+┃➜ ${global.prefix}modoprivado on/off
 
-🎨 Personaliza tu bot:
+╭───────•◈•───────╮
+ 𝗣𝗘𝗥𝗦𝗢𝗡𝗔𝗟𝗜𝗭𝗔 𝗧𝗨́ 𝗕𝗢𝗧 🤝
+╰───────•◈•───────╯
 
-• ${global.prefix}botname
-• ${global.prefix}botfoto
-• ${global.prefix}setprefix
-• ${global.prefix}git
+┃➜ ${global.prefix}botname
+┃➜ ${global.prefix}botfoto
+┃➜ ${global.prefix}setprefix
+┃➜ ${global.prefix}git
 
-🧬 Consola técnica:
+╭───────•◈•───────╮
+   𝗖𝗢𝗡𝗦𝗢𝗟𝗔 𝗧𝗘́𝗖𝗡𝗜𝗖𝗔 👨🏻‍💻
+╰───────•◈•───────╯
 
-• ${global.prefix}re
-• ${global.prefix}unre
-• ${global.prefix}antideletepri on/off
-• ${global.prefix}apagar
-• ${global.prefix}prender
+┃➜ ${global.prefix}re
+┃➜ ${global.prefix}unre
+┃➜ ${global.prefix}antideletepri on/off
+┃➜ ${global.prefix}apagar
+┃➜ ${global.prefix}prender
 
-🎮 Contenido editable:
+╭───────•◈•───────╮
+ 𝗖𝗢𝗡𝗧𝗘𝗡𝗜𝗗𝗢 𝗘𝗗𝗜𝗧𝗔𝗕𝗟𝗘 ✍🏼
+╰───────•◈•───────╯
 
-• ${global.prefix}addper
-• ${global.prefix}addmascota
-• ${global.prefix}dar
-• ${global.prefix}dame
-• ${global.prefix}addlista
-• ${global.prefix}deletelista
+┃➜ ${global.prefix}addper
+┃➜ ${global.prefix}addmascota
+┃➜ ${global.prefix}dar
+┃➜ ${global.prefix}dame
+┃➜ ${global.prefix}addlista
+┃➜ ${global.prefix}deletelista
 
 🔐 Solo para administradores autorizados.
-👨‍💻 Dev: Russell XZ`;
+👨‍💻 Dev: 𝐂𝐡𝐨𝐥𝐨 𝐡𝐧`;
 
     await sock.sendMessage2(
       chatId,
       {
-        image: { url: "https://cdn.russellxz.click/799e0033.jpeg" },
+        image: { url: "https://cdn.russellxz.click/917341ff.jpeg" },
         caption: captionText
       },
       msg
@@ -3785,7 +3791,7 @@ case 'menurpg': {
     });
 
     const chatId = msg.key.remoteJid;
-    const menuText = `🎮 𓆩 𝐂𝐎𝐑𝐓𝐀𝐍𝐀 𝟐.𝟎 𝐁𝐎𝐓 — 𝐌𝐄𝐍𝐔́ 𝐑𝐏𝐆 𓆪
+    const menuText = `🎮 𓆩 𝐊𝐈𝐋𝐋𝐔𝐀 𝟐.𝟎 𝐁𝐎𝐓 — 𝐌𝐄𝐍𝐔́ 𝐑𝐏𝐆 𓆪
 
 🌟 *Explora un mundo de aventuras*  
 📍 *Regístrate:* ${global.prefix}rpg <nombre> <edad>  
@@ -3831,8 +3837,8 @@ case 'menurpg': {
 🐶 ${global.prefix}topmascotas  
 🏅 ${global.prefix}topper
 
-🧙 *Desarrollado por:* Russell XZ  
-🧭 *Sistema de aventura activo en Cortana 2.0 Bot*`;
+🧙 *Desarrollado por:* 𝒉𝒏 𝑪𝒉𝒐𝒍𝒐
+🧭 *Sistema de aventura activo en Killua 2.0 Bot*`;
 
     await sock.sendMessage2(
       chatId,
@@ -3891,7 +3897,7 @@ case 'menu': {
 ┃➜ ${global.prefix}𝗌𝖾𝗍𝗉𝖺𝗀𝗈 / 𝗉𝖺𝗀𝗈
 ┃➜ ${global.prefix}𝗌𝖾𝗍𝖼𝗈𝗆𝖻𝗈𝗌 / 𝖼𝗈𝗆𝖻𝗈𝗌
 ┃➜ ${global.prefix}𝗌𝖾𝗍𝗋𝖾𝗀𝗅𝖺𝗌 / 𝗋𝖾𝗀𝗅𝖺𝗌
-┃➜ ${global.prefix}𝗌𝗈𝗋𝗍𝖾𝗅
+┃➜ ${global.prefix}𝗌𝗈𝗋𝗍𝖾𝗈
 
 ╭━━[ 𝗜𝗔 & 𝗖𝗛𝗔𝗧𝗕𝗢𝗧𝗦 👨‍💻 ]━⬣
 ┃➜ ${global.prefix}𝗀𝖾𝗆𝗂𝗇𝗂 / 𝖼𝗁𝖺𝗍𝗀𝗉𝗍 / 𝖽𝖺𝗅𝗅𝖾
@@ -4018,7 +4024,7 @@ case 'menugrupo': {
     await sock.sendMessage2(
       chatId,
       {
-        image: { url: "https://cdn.russellxz.click/a69577e7.jpeg" },
+        image: { url: "https://cdn.russellxz.click/54fe2641.jpeg" },
         caption: captionText
       },
       msg
@@ -4816,7 +4822,7 @@ case 'todos': {
     const extraMsg = args.join(" ");
 
     let finalMsg = `╔『 🔊 INVOCACIÓN MASIVA 』╗\n`;
-    finalMsg += `╟🔹 *CORTANA 2.0 BOT PRESENTE*\n`;
+    finalMsg += `╟🔹 *KILLUA 2.0 BOT PRESENTE*\n`;
     finalMsg += `╟👤 *Invocado por:* @${sender}\n`;
     if (extraMsg.trim().length > 0) {
       finalMsg += `╟💬 *Mensaje:* ${extraMsg}\n`;
@@ -4828,7 +4834,7 @@ case 'todos': {
     const mentionIds = participants.map(p => p.id);
 
     await sock.sendMessage(chatId, {
-      image: { url: "https://cdn.russellxz.click/9b10fab1.jpeg" },
+      image: { url: "https://cdn.russellxz.click/d6749a3e.jpeg" },
       caption: finalMsg,
       mentions: mentionIds
     }, { quoted: msg });
@@ -14166,9 +14172,9 @@ case "perfil": {
 }
 
 case 'creador': {
-    const ownerNumber = "15167096032@s.whatsapp.net"; // Número del dueño en formato WhatsApp
-    const ownerName = "Russell xz 🤖"; // Nombre del dueño
-    const messageText = "📞 *Contacto del Creador:*\n\nSi tienes dudas, preguntas o sugerencias sobre el bot, puedes contactar a mi creador.\n\n📌 *Nombre:* Russell\n📌 *Número:* +1 (516) 709-6032\n💬 *Mensaje directo:* Pulsa sobre el contacto y chatea con él.";
+    const ownerNumber = "50489513153@s.whatsapp.net"; // Número del dueño en formato WhatsApp
+    const ownerName = "𝘾𝙝𝙤𝙡𝙤 𝙭𝙮𝙯🤖"; // Nombre del dueño
+    const messageText = "📞 > *Contacto del Creador:*\n\nSi tienes dudas, preguntas o sugerencias sobre el bot, puedes contactar a mi creador.\n\n📌 *Nombre:* 𝗖𝗵𝗼𝗹𝗼\n📌 *Número:* +504 8951-3153\n💬 *Mensaje directo:* Pulsa sobre el contacto y chatea con él.";
 
     // Enviar mensaje con el contacto del dueño
     await sock.sendMessage(msg.key.remoteJid, {
@@ -14664,7 +14670,7 @@ case "ig":
 
 ━━━━━━━━━━━━━━  
 🚀 *API:* api.dorratz.com  
-🤖 *Cortana 2.0 Bot*`;
+🤖 *killua 2.0 Bot*`;
 
         // Asegurar carpeta tmp
         const tmpDir = path.resolve('./tmp');
@@ -14790,7 +14796,7 @@ case "tt":
 
 📥 *Video descargado con éxito*
 🌐 *API:* https://api.dorratz.com
-🤖 *Cortana 2.0 Bot*`;
+🤖 *killua 2.0 Bot*`;
 
         // 📩 Enviar video
         await sock.sendMessage(msg.key.remoteJid, {
