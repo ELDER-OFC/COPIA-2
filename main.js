@@ -3940,7 +3940,7 @@ case 'menu': {
     await sock.sendMessage2(
       chatId,
       {
-        image: { url: "https://cdn.russellxz.click/3f190542.mp4" },
+        image: { url: "https://cdn.russellxz.click/87159ae9.mp4" },
         caption: captionText
       },
       msg
